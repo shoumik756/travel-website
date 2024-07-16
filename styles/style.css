@@ -547,7 +547,6 @@ hr{
 
 
 
-
 /* media query */
 @media screen and (max-width: 576px) {
 
@@ -601,7 +600,7 @@ hr{
 
   .perfect-vdo iframe {
     border-radius: 16px;
-    width: 400px;
+    width: 100%;
     height: 200px;
   }
   .form {
@@ -611,7 +610,12 @@ hr{
   .form-image {
     width: 100%;
   }
+  .form-image img {
+    width: 100%;
+    height: 300px;
+  }
   .form-content {
-    width: 85%;
+    width: 92%;
+    padding: 12px;
   }
 }
